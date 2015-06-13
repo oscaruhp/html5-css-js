@@ -1,0 +1,12 @@
+div[name="Texto"]{color: brown;}
+div[name*="Texto"]{color: green;}
+div[name^="Texto"]{ color: aqua;}
+div[name$="Texto"]{ color: blue;}
+div:nth-child(2){
+background-color: chartreuse;
+}
+div>p{background-color: cadetblue;}
+p+p{ color: red;}
+p.mitexto2 ~ p{
+background-color: darkgrey;
+}
