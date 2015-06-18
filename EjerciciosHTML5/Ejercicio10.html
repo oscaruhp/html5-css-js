@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+            <title>Este texto es el título del documento</title>
+            <link rel="stylesheet" href="misestilos.css">
+    </head>
+    <style>
+    * {margin: 0px;padding: 0px; font-family: 'Montserrat',sans-serif;}
+    body {text-align: center; background-color: #F5C700;}
+    h1 {font: bold 20px verdana, sans-serif; } 
+    h2 {font: bold 14px verdana, sans-serif;}
+        img{ border: 2px solid #EF4836}
+        
+    header, section, footer, aside, nav, article, figure, figcaption,hgroup{display: block;}
+    article {background:white;border: 1px solid #999999;padding: 20px;margin-bottom: 15px;} 
+    article footer {text-align: right;} 
+    time {color: #999999;} 
+    figcaption {font: italic 14px verdana, sans-serif;}
+        
+    #pie {clear: both;text-align: center;padding: 20px;border-top: 2px solid #EF4836;}
+    #seccion {float: left;width: 660px;margin: 20px;} 
+    #columna {float: left;width: 220px;margin: 20px 0px;padding: 10px;background: #1abc9c; margin-right: 10px;   height: 525px;}
+    #menu {background: #EF4836;padding: 5px 15px;} 
+    #menu li {display: inline-block; list-style: none;padding: 5px;}
+    #menu li {font: bold 14px verdana, sans-serif; color:white; cursor: pointer;}
+    #menu li:hover{background-color:#F5C700;}
+    #cabecera {background:#1abc9c;border: 1px solid #999999;padding: 20px;}
+    #cabecera h1{ color:white;}
+    #agrupar {width: 960px;margin: 15px auto;text-align: left; background-color: white;}
+        
+    </style>
+    <body>
+        <div id="agrupar">
+        <header id="cabecera" >
+                <h1>Este es el título principal del sitio web</h1>
+        </header>
+        <nav id="menu" >
+            <ul>
+                <li>Portada</li>
+                <li>Lecciones</li>
+                <li>Libros</li>
+                <li>Multimedia</li>
+            </ul>
+        </nav>
+        <section id="seccion" >
+            <article>
+                <header>
+                    
+                    <hgroup>
+                        <h1>Título del mensaje uno</h1>
+                        <h2>Subtítulo del mensaje uno</h2>
+                    </hgroup>
+                    
+                    <p>publicado 10-12-2011</p>
+                </header>
+                   
+                <figure>
+                    <img src="http://minkbooks.com/content/myimage.jpg">
+                    <figcaption>
+                            Esta es la imagen del primer mensaje
+                    </figcaption>
+                </figure>
+                <span>Mi <mark>coche</mark> es rojo</span>
+                
+                <br/>
+                <em>Contenido em</em>
+                <br/>
+                <strong>Contenido Strong</strong>
+                <br/>
+                <span>La película <cite>Tentaciones</cite></span>
+                <br/>
+                <time datetime="2008-02-14 20:00">Día de san Valentín </time>
+                <footer>
+                    <p>comentarios (0)</p>
+                    <small>Derechos Reservados &copy; 2011 MinkBooks</small>
+                    <address>
+                        Correo: <a href="mailto:webmaster@example.com">Jon Doe</a>
+                    </address>
+                </footer>
+            </article>
+            
+        </section>
+        <aside id="columna" >
+            <blockquote>Mensaje número uno</blockquote>
+            <blockquote>Mensaje número dos</blockquote>
+        </aside>
+        <footer id="pie" >
+            Derechos Reservados &copy; 2010-2011
+        </footer>
+        </div>
+</body>
+</html>
